@@ -6,5 +6,6 @@ Site instructions:
 - Rest in progress...
 
 Minus:
-- The site is not responsive
-- And etc...
+- The site is not responsive;
+- Not fully resolved;
+- And etc...;
