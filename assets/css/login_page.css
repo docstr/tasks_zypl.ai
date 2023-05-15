@@ -1,0 +1,140 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body {
+    background: linear-gradient(137deg, #00bfff, #9400d3, #0000ff);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    -o-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  .block{
+    margin-top: 20vh;
+    width: 400px;
+    height: 350px;
+    background-color: #ffffff33;
+    opacity: 0.4;
+    border-radius: 30px;
+    -webkit-box-shadow: 10px 10px 26px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 26px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 26px -10px rgba(0,0,0,0.75);
+}
+
+.img{
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    position: relative;
+    -webkit-box-shadow: 10px 10px 39px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 39px -14px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 39px -14px rgba(0,0,0,0.75);
+}
+
+  .block_img{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: -12.5%;
+  }
+
+  .block_form{
+    position: absolute;
+    margin-top: 15%;
+    margin-bottom: 1rem;
+  }
+
+    label{
+    position: absolute;
+    left: -30px;
+}
+
+  .login_img{
+    width: 35px;
+    height: 35px;
+  }
+
+  .password_img{
+    width: 35px;
+    height: 35px;
+  }
+
+  input[type="text"] {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit; 
+    margin: 0; 
+  }
+
+  input{
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-radius: 0.25rem;
+  }
+
+  .colortext{
+    background-color: #00bfff71;
+    border: 1px solid #bdbdbd;
+    margin-left: 15px;
+
+  }
+
+  ::-webkit-input-placeholder {
+    color:#f3f3f3b6;
+ }
+ :-moz-placeholder {
+    color:#f3f3f3b6;
+ }
+ ::-moz-placeholder { 
+    color:#f3f3f3b6;
+ }
+ :-ms-input-placeholder { 
+    color:#f3f3f3b6;
+ }
+
+ .submit_button{
+    color: #fff;
+    background-color: #ffffff33;
+    opacity: 0.7;
+    border: 1px solid #bdbdbd;
+    -webkit-box-shadow: 10px 10px 26px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 26px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 26px -10px rgba(0,0,0,0.75);  
+ }
