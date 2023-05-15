@@ -8,4 +8,5 @@ Site instructions:
 Minus:
 - The site is not responsive;
 - Not fully resolved;
+- Code without comments for developers;
 - And etc...;
