@@ -1,0 +1,20 @@
+@import url("question_1.css");
+
+.block{
+    margin-top: 15vh;
+    width: 400px;
+    height:400px;
+}
+
+h3{
+    color: #fff;
+}
+
+input[type="radio"]{
+    width: 20px;
+}
+
+input[type="radio"] + label
+{
+    
+}

@@ -1,0 +1,27 @@
+@import url("login_page.css");
+
+.block_form {
+    margin-top: 10%;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+input[type="number"] {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-radius: 0.25rem;
+
+    color: #fff;
+    background-color: #00bfff71;
+    border: 1px solid #bdbdbd;
+    margin-top: 15%;
+}
